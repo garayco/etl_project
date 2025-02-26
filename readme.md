@@ -35,7 +35,9 @@ This project uses the following Python libraries:
    - Edit the `config/database.yaml` file with MySQL credentials.
 
 ## ETL Process
+
 ### Extraction Phase 
+
 #### 1. Data Extraction
 - **Module:** `kaggle_tools.dataset_download`
 - **Function:** `dataset_download`
@@ -46,7 +48,7 @@ This project uses the following Python libraries:
 - **Function:** `create_db`
 - **Process:** Establishing a MySQL connection and creating the database using SQLAlchemy.
 
-#### 3. Data Cleaning and Loading
+#### 3. Loading the dataset into the DB
 - **Module:** `mysql_db_connection.upload_dataset_to_db`
 - **Function:** `upload_dataset_to_db`
 - **Process:**
