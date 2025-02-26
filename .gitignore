@@ -1,0 +1,15 @@
+# Ignore yaml configuration
+config.yaml
+
+# Ignore dataset folder
+.dataset
+
+# Ignore python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore vscode folder
+.vscode
+
+
