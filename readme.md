@@ -35,17 +35,18 @@ This project relies on the following Python libraries:
    - Edit the `config/database.yaml` file with MySQL credentials.
 
 ## ETL Process
-### 1. Data Extraction
+### Extraction Phase 
+#### 1. Data Extraction
 - **Module:** `kaggle_tools.dataset_download`
 - **Function:** `dataset_download`
 - **Process:** Downloading the dataset from Kaggle.
 
-### 2. Database Creation
+#### 2. Database Creation
 - **Module:** `mysql_db_connection.db_connection`
 - **Function:** `create_db`
 - **Process:** Establishing a MySQL connection and creating the database using SQLAlchemy.
 
-### 3. Data Cleaning and Loading
+#### 3. Data Cleaning and Loading
 - **Module:** `mysql_db_connection.upload_dataset_to_db`
 - **Function:** `upload_dataset_to_db`
 - **Process:**
@@ -53,6 +54,11 @@ This project relies on the following Python libraries:
   - Filtering out deleted or removed posts (`[removed]`, `[deleted]`).
   - Eliminating posts with fewer than 10 characters.
   - Inserting the cleaned data into the database.
+
+### Transform Phase 
+...
+### Load Phase 
+...
 
 ## Project Usage
 
