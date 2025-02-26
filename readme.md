@@ -5,9 +5,19 @@ This project aims to extract, transform and load (ETL) data from a Kaggle datase
 
 ## Used Technologies
 - **Programming Language:** Python  
-- **Libraries:** pandas, sqlalchemy, kaggle, yaml  
 - **Database:** MySQL  
 - **Data Source:** [mental_disorders_reddit.csv](https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-reddit-nlp?select=mental_disorders_reddit.csv)
+
+### Dependencies
+This project relies on the following Python libraries:
+
+| Library      | Version  | Description |
+|-------------|---------|-------------|
+| `kaggle`    | 1.6.17  | API to download datasets from Kaggle |
+| `pandas`    | 2.2.3   | Data manipulation and analysis |
+| `PyYAML`    | 6.0.2   | YAML file parsing for configuration |
+| `SQLAlchemy`| 2.0.38  | Database connection and ORM |
+| `tqdm`      | 4.67.1  | Progress bar visualization |
 
 ## Installation and Configuration
 1. **Clone the repository:**
