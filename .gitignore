@@ -1,3 +1,6 @@
+# Ignore yaml configuration
+config/
+
 # Ignore dataset folder
 .dataset
 
