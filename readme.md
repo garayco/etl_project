@@ -9,7 +9,7 @@ This project aims to extract, transform and load (ETL) data from a Kaggle datase
 - **Data Source:** [mental_disorders_reddit.csv](https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-reddit-nlp?select=mental_disorders_reddit.csv)
 
 ### Dependencies
-This project relies on the following Python libraries:
+This project uses the following Python libraries:
 
 | Library      | Version  | Description |
 |-------------|---------|-------------|
