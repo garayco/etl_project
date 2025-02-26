@@ -1,0 +1,5 @@
+kaggle==1.6.17
+pandas==2.2.3
+PyYAML==6.0.2
+SQLAlchemy==2.0.38
+tqdm==4.67.1

@@ -1,5 +1,5 @@
 # Ignore yaml configuration
-config.yaml
+config/
 
 # Ignore dataset folder
 .dataset
