@@ -70,4 +70,4 @@ python main.py
 
 ## Contact
 Author: Felipe Garaycochea Lozada  
-Email: [fgarayco@gmail.com]
+Email: fgarayco@gmail.com
