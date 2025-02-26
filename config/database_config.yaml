@@ -1,0 +1,12 @@
+db:
+  credentials:
+    user: "user"
+    password: "password"
+  host: "localhost"
+  port: 3306
+  schemas:
+    mental_disorders_reddit: 
+      name: "mental_disorders_reddit"
+      tables: 
+        mental_disorders: 
+          name: "mental_disorders"
