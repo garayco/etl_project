@@ -42,7 +42,7 @@ if __name__ == "__main__":
         }
 
         # Read the csv
-        file_path = ".dataset/mental_disorders_reddit.csv"
+        file_path = "dataset/mental_disorders_reddit.csv"
         df_chunks = pd.read_csv(file_path, chunksize=10000)
 
         # Chunk process
