@@ -35,3 +35,11 @@ def create_db(db_name):
             print(f"❌ Error creating database '{db_name}': {e}")
     finally:
         engine.dispose()
+
+
+def create_mental_disorders_reddit_engine():
+    mental_disorders_reddit_db_name = db["schemas"]["mental_disorders_reddit"]["name"]
+    return create_mysql_engine(mental_disorders_reddit_db_name)
+
+def get_mental_disorders_table_conf():
+    return db["schemas"]["mental_disorders_reddit"]["tables"]["mental_disorders"]
