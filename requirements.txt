@@ -1,4 +1,6 @@
 kaggle==1.6.17
+nltk==3.9.1
+NRCLex==3.0.0
 pandas==2.2.3
 PyYAML==6.0.2
 SQLAlchemy==2.0.38
