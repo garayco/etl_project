@@ -133,6 +133,9 @@ To execute the **transformation phase**, open and run the Jupyter Notebook:
 ```bash
 jupyter notebook EDA_transformation.ipynb
 ```
+---
+
+*Note: The credentials in the config/database_config.yaml file are examples and do not represent actual credentials.* 
 
 ## Contact
 Author: Felipe Garaycochea Lozada  
