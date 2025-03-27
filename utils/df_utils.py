@@ -5,7 +5,7 @@ def df_format_columns(df):
 
 
 # This function aplies the rules
-def clean_df(df, cleaning_rules):
+def clean_df_using_rules(df, cleaning_rules):
 
     # Deltete rows with NaN or None
     df = df.dropna().reset_index(drop=True)

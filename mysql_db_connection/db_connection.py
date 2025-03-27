@@ -36,10 +36,15 @@ def create_db(db_name):
     finally:
         engine.dispose()
 
+def get_mental_disorders_reddit_db_name(): 
+    return db["schemas"]["mental_disorders_reddit"]["name"]
 
 def create_mental_disorders_reddit_engine():
-    mental_disorders_reddit_db_name = db["schemas"]["mental_disorders_reddit"]["name"]
-    return create_mysql_engine(mental_disorders_reddit_db_name)
+    db_name = get_mental_disorders_reddit_db_name()
+    return create_mysql_engine(db_name)
 
 def get_mental_disorders_table_conf():
     return db["schemas"]["mental_disorders_reddit"]["tables"]["mental_disorders"]
+
+def get_mental_disorders_processed_table_conf():
+    return db["schemas"]["mental_disorders_reddit"]["tables"]["mental_disorders_processed"]
