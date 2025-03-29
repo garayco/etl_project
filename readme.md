@@ -217,6 +217,7 @@ npm run dev
 ```
 #### Dashboard
 For more information about the dashboard, check the [Dashboard README](dashboard/README.md).
+
 ---
 
 *Note: The credentials in the config/database_config.yaml file are examples and do not represent actual credentials.* 
