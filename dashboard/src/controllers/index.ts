@@ -1,7 +1,7 @@
 import { ChartConfig } from "@/components/ui/chart";
 
-//const API = "http://127.0.0.1:8000";
-const API = "https://b794-181-54-0-216.ngrok-free.app";
+const API = "http://127.0.0.1:8000";
+//const API = " https://bde8-181-54-0-216.ngrok-free.app";
 
 const COLORS = [
   "#93c47d", // Verde
