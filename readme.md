@@ -215,7 +215,7 @@ cd dashboard
 npm install
 npm run dev
 ```
-#### Dashboard
+
 For more information about the dashboard, check the [Dashboard README](dashboard/README.md).
 
 ---
